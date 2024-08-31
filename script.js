@@ -83,6 +83,36 @@ class Calculator {
   }
 }
 
+Latta.init({
+apiKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0IjoiZjZiMDcwYWMtZGY0Yy00NzVjLWE4N2YtODc3YzMwZDMzYjY2IiwiaWF0IjoxNzI1MDk0MzgwfQ.y-UFNP7kKa8E2hLL-1AhnTZoVCRVAOTj9EJy7nJNBFg', 
+console: 	{
+	enabled: true,
+	logLevel: [
+		'assert',
+		'clear',
+		'count',
+		'countReset',
+		'debug',
+		'dir',
+		'dirxml',
+		'error',
+		'group',
+		'groupCollapsed',
+		'groupEnd',
+		'info',
+		'log',
+		'table',
+		'time',
+		'timeEnd',
+		'timeLog',
+		'trace',
+		'warn'
+		]
+	},
+fetch: {
+	enabled: true
+}
+});
 
 const numberButtons = document.querySelectorAll('[data-number]')
 const operationButtons = document.querySelectorAll('[data-operation]')
